@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Aryan Lodha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px;
+            background: white;
+        }
+
+        /* Header */
+        .resume-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #6366f1;
+        }
+
+        .resume-header h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .resume-header .title {
+            font-size: 18px;
+            color: #6366f1;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .contact-info a {
+            color: #64748b;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: #6366f1;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .education-item h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 5px;
+        }
+
+        .education-item .degree {
+            font-size: 16px;
+            color: #475569;
+            margin-bottom: 3px;
+        }
+
+        .education-item .date {
+            font-size: 14px;
+            color: #6366f1;
+            font-weight: 500;
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 8px;
+        }
+
+        .experience-header h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        .experience-header .company {
+            font-size: 16px;
+            color: #6366f1;
+            font-weight: 500;
+        }
+
+        .experience-header .date {
+            font-size: 14px;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        .experience-item ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .experience-item li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 5px;
+            color: #475569;
+            font-size: 14px;
+        }
+
+        .experience-item li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #6366f1;
+            font-weight: bold;
+        }
+
+        /* Skills */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .skill-category h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            padding: 4px 12px;
+            background: #f1f5f9;
+            color: #475569;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        /* Projects */
+        .project-item {
+            margin-bottom: 18px;
+        }
+
+        .project-item h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 5px;
+        }
+
+        .project-item .tech-stack {
+            font-size: 13px;
+            color: #6366f1;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .project-item p {
+            font-size: 14px;
+            color: #475569;
+            line-height: 1.5;
+        }
+
+        /* Certifications */
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .cert-item {
+            padding: 12px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #6366f1;
+        }
+
+        .cert-item h4 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 3px;
+        }
+
+        .cert-item .issuer {
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        .cert-item .year {
+            font-size: 13px;
+            color: #6366f1;
+            font-weight: 500;
+        }
+
+        /* Achievements */
+        .achievement-item {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            font-size: 14px;
+            color: #475569;
+        }
+
+        .achievement-item::before {
+            content: "★";
+            position: absolute;
+            left: 0;
+            color: #6366f1;
+            font-weight: bold;
+        }
+
+        /* Coding Profiles */
+        .coding-profiles {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .profile-badge {
+            padding: 8px 16px;
+            background: #f1f5f9;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .profile-badge strong {
+            color: #6366f1;
+            font-weight: 600;
+        }
+
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .resume-container {
+                padding: 20px;
+            }
+
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .skills-container,
+            .cert-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .experience-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header -->
+        <div class="resume-header">
+            <h1>ARYAN LODHA</h1>
+            <div class="title">AI & Data Science Student | Cyber Security Honors | Data & AI Engineer</div>
+            <div class="contact-info">
+                <span>📧 aryanlodha0908@gmail.com</span>
+                <span>📱 +91 96369 58438</span>
+                <span>📍 Mumbai, Maharashtra</span>
+                <a href="https://www.linkedin.com/in/aryan-lodha-9525a4355/" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
+                <a href="https://github.com/aryanlodha0908" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
+            </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <p class="professional-summary">
+                Highly motivated AI & Data Science student with Honors in Cyber Security, specializing in machine learning, 
+                data analytics, and security solutions. Proven track record of developing intelligent systems and data-driven 
+                applications. Strong problem-solving skills with 500+ coding problems solved across competitive programming 
+                platforms. Seeking opportunities to apply technical expertise in AI/ML and data science roles.
+            </p>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <h3>K J Somaiya College of Engineering</h3>
+                <div class="degree">Bachelor of Technology in Artificial Intelligence & Data Science</div>
+                <div class="degree">Honors in Cyber Security</div>
+                <div class="date">Expected Graduation: May 2026 | CGPA: 8.5/10</div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4>AI & Machine Learning</h4>
+                    <div class="skill-list">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Data Science & Analytics</h4>
+                    <div class="skill-list">
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">BigQuery</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Power BI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Programming & Web Dev</h4>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Security & Cloud</h4>
+                    <div class="skill-list">
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Ethical Hacking</span>
+                        <span class="skill-tag">Cryptography</span>
+                        <span class="skill-tag">OWASP</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <div class="section-title">Experience</div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Data Analyst Intern</h3>
+                        <div class="company">Company Name</div>
+                    </div>
+                    <div class="date">Jun 2024 - Aug 2024</div>
+                </div>
+                <ul>
+                    <li>Analyzed large datasets (10M+ records) to identify trends and patterns, providing actionable insights to stakeholders</li>
+                    <li>Created 15+ interactive dashboards using Power BI, improving data accessibility by 60%</li>
+                    <li>Automated data cleaning and preprocessing pipelines using Python, reducing processing time by 40%</li>
+                    <li>Collaborated with cross-functional teams to deliver insights that drove business decisions</li>
+                    <li>Technologies: Python, SQL, Power BI, Pandas, NumPy</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Machine Learning Intern</h3>
+                        <div class="company">Tech Company</div>
+                    </div>
+                    <div class="date">Jan 2024 - May 2024</div>
+                </div>
+                <ul>
+                    <li>Developed and trained classification models achieving 92% accuracy, exceeding target by 7%</li>
+                    <li>Implemented feature engineering techniques improving model performance by 15%</li>
+                    <li>Conducted A/B testing and model evaluation using cross-validation techniques</li>
+                    <li>Documented research findings and presented to technical and non-technical stakeholders</li>
+                    <li>Technologies: TensorFlow, Scikit-learn, Python, Jupyter</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Cyber Security Intern</h3>
+                        <div class="company">Security Firm</div>
+                    </div>
+                    <div class="date">Jul 2023 - Sep 2023</div>
+                </div>
+                <ul>
+                    <li>Performed vulnerability assessments and penetration testing on client networks</li>
+                    <li>Identified and helped remediate 15+ critical vulnerabilities, enhancing security posture</li>
+                    <li>Analyzed network traffic using Wireshark to detect potential security threats</li>
+                    <li>Documented security findings and provided detailed remediation recommendations</li>
+                    <li>Technologies: Kali Linux, Wireshark, Metasploit, Nmap, OWASP ZAP</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <div class="section-title">Key Projects</div>
+            
+            <div class="project-item">
+                <h3>Sentiment Analysis System</h3>
+                <div class="tech-stack">Python • NLP • TensorFlow • BERT • Flask • React</div>
+                <p>Developed advanced NLP model for analyzing customer reviews with 94% accuracy. Implemented multi-language 
+                support and batch processing. Created interactive dashboard for visualization and deployed as REST API.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Sales Prediction Dashboard</h3>
+                <div class="tech-stack">Python • Tableau • SQL • Scikit-learn • LSTM • Pandas</div>
+                <p>Built time-series forecasting system using LSTM for sales prediction. Created interactive visualizations 
+                and automated report generation. Integrated real-time data from multiple sources.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Network Intrusion Detection System</h3>
+                <div class="tech-stack">Python • Machine Learning • Wireshark • Keras • NetworkX</div>
+                <p>Developed ML-based system for real-time network threat detection. Implemented anomaly detection algorithms 
+                and alert system for suspicious activities. Optimized for high-speed network environments.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Image Classification Model</h3>
+                <div class="tech-stack">Python • CNN • TensorFlow • OpenCV • Flask</div>
+                <p>Built multi-class image classification system using CNN with transfer learning. Implemented data augmentation 
+                and model fine-tuning. Created web interface for real-time image prediction.</p>
+            </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="section">
+            <div class="section-title">Certifications</div>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <h4>Google Cloud Data Analytics</h4>
+                    <div class="issuer">Google Cloud</div>
+                    <div class="year">2024</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Certified Ethical Hacker (CEH)</h4>
+                    <div class="issuer">EC-Council</div>
+                    <div class="year">2024</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Machine Learning Specialization</h4>
+                    <div class="issuer">Coursera - Stanford</div>
+                    <div class="year">2023</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Data Science Professional</h4>
+                    <div class="issuer">IBM</div>
+                    <div class="year">2023</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Network Security Fundamentals</h4>
+                    <div class="issuer">Cisco</div>
+                    <div class="year">2023</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Python for Data Science</h4>
+                    <div class="issuer">DataCamp</div>
+                    <div class="year">2023</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coding Profiles -->
+        <div class="section">
+            <div class="section-title">Competitive Programming</div>
+            <div class="coding-profiles">
+                <div class="profile-badge">
+                    <strong>LeetCode:</strong> 500+ problems • Knight rating
+                </div>
+                <div class="profile-badge">
+                    <strong>HackerRank:</strong> 5-star Problem Solving & Python
+                </div>
+                <div class="profile-badge">
+                    <strong>HackerEarth:</strong> 300+ problems • 1500+ rating
+                </div>
+                <div class="profile-badge">
+                    <strong>CodeChef:</strong> 3-star rating
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievements -->
+        <div class="section">
+            <div class="section-title">Achievements & Activities</div>
+            <div class="achievement-item">
+                1st Place in AI Hackathon 2024 - Built predictive maintenance system using Machine Learning
+            </div>
+            <div class="achievement-item">
+                Top 50 in National Level Coding Competition - Solved complex algorithmic problems
+            </div>
+            <div class="achievement-item">
+                Published research paper on "Deep Learning for Anomaly Detection" in IEEE Conference
+            </div>
+            <div class="achievement-item">
+                Active open-source contributor - 50+ commits to ML libraries, 10+ merged PRs
+            </div>
+            <div class="achievement-item">
+                Technical Blog Writer - Published 20+ articles on AI/ML topics with 10K+ readers
+            </div>
+        </div>
+    </div>
+</body>
+</html>
