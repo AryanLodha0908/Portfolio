@@ -45,20 +45,20 @@ sublime .  # Sublime Text
 
 ```html
 <!-- Line ~91: Update your name -->
-<span class="gradient-text">Your Name</span>
+<span class="gradient-text">Aryan Lodha</span>
 <!-- Replace with: -->
-<span class="gradient-text">John Doe</span>
+<span class="gradient-text">Aryan Lodha</span>
 
 <!-- Line ~120: Update email -->
-<a href="mailto:your.email@example.com">
+<a href="mailto:aryanlodha0908@gmail.com">
 <!-- Replace with: -->
-<a href="mailto:john.doe@example.com">
+<a href="mailto:aryanlodha0908@gmail.com">
 
 <!-- Line ~109-115: Update social links -->
-<a href="https://github.com/yourusername" ...>
-<a href="https://linkedin.com/in/yourusername" ...>
-<a href="https://leetcode.com/yourusername" ...>
-<!-- Replace 'yourusername' with your actual usernames -->
+<a href="https://github.com/aryanlodha0908" ...>
+<a href="https://linkedin.com/in/aryan-lodha-9525a4355/" ...>
+<a href="https://leetcode.com/aryanlodha0908" ...>
+<!-- Replace 'aryanlodha0908' with your actual usernames -->
 ```
 
 ### Step 4: Test Features (30 seconds)
@@ -85,7 +85,7 @@ Your portfolio is now personalized and ready to use locally!
 **Name & Title:**
 ```html
 <!-- Find and replace: -->
-<span class="gradient-text">Your Name</span>
+<span class="gradient-text">Aryan Lodha</span>
 <!-- Line ~91 -->
 
 <!-- Update subtitle (typing animation) in script.js: -->
@@ -100,12 +100,12 @@ strings: [
 **Contact Information:**
 ```html
 <!-- Email: Line ~120 -->
-<a href="mailto:your.email@example.com">
+<a href="mailto:aryanlodha0908@gmail.com">
 
 <!-- Social Links: Lines ~109-118 -->
-<a href="https://github.com/yourusername" ...>
-<a href="https://linkedin.com/in/yourusername" ...>
-<a href="https://leetcode.com/yourusername" ...>
+<a href="https://github.com/aryanlodha0908" ...>
+<a href="https://linkedin.com/in/aryan-lodha-9525a4355/" ...>
+<a href="https://leetcode.com/aryanlodha0908" ...>
 ```
 
 ---
@@ -124,10 +124,10 @@ strings: [
 **Statistics:**
 ```html
 <!-- Lines ~195-210 - Update data-count values -->
-<div class="stat-number" data-count="15">0</div> <!-- Projects -->
+<div class="stat-number" data-count="12">0</div> <!-- Projects -->
 <div class="stat-number" data-count="10">0</div> <!-- Certifications -->
 <div class="stat-number" data-count="500">0</div> <!-- Problems Solved -->
-<div class="stat-number" data-count="5">0</div> <!-- Internships -->
+<div class="stat-number" data-count="1">0</div> <!-- Internships -->
 ```
 
 ---
@@ -170,22 +170,22 @@ strings: [
         <div class="experience-card">
             <div class="experience-header">
                 <div>
-                    <h3>Your Job Title</h3> <!-- e.g., Data Analyst Intern -->
-                    <h4>Company Name</h4>
+                    <h3>Intern</h3> <!-- e.g., Data Analyst Intern -->
+                    <h4>Archaeological Image Analysis</h4>
                 </div>
                 <span class="duration">Start - End Date</span> <!-- e.g., Jun 2024 - Aug 2024 -->
             </div>
             <div class="tech-stack">
-                <span class="tech-tag">Tech 1</span>
-                <span class="tech-tag">Tech 2</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">Python</span>
             </div>
             <ul class="responsibilities">
-                <li>Responsibility 1</li>
-                <li>Responsibility 2</li>
-                <li>Responsibility 3</li>
+                <li>Analyzed archaeological images using computer vision techniques.</li>
+                <li>Developed algorithms for image enhancement and pattern recognition.</li>
+                <li>Collaborated with researchers to document historical artifacts.</li>
             </ul>
             <div class="outcomes">
-                <strong>Key Achievement:</strong> Your main accomplishment
+                <strong>Key Achievement:</strong> Developed highly accurate computer vision models for artifact recognition.
             </div>
         </div>
     </div>
@@ -238,7 +238,7 @@ strings: [
 <span class="badge hard">Hard: 50+</span>
 
 <!-- Update profile link -->
-<a href="https://leetcode.com/yourusername" target="_blank" rel="noopener noreferrer" class="profile-link">
+<a href="https://leetcode.com/aryanlodha0908" target="_blank" rel="noopener noreferrer" class="profile-link">
 ```
 
 **Repeat for:**
@@ -261,7 +261,7 @@ strings: [
         </div>
     </div>
     <div class="project-content">
-        <h3>Your Project Title</h3>
+        <h3>AutoMind AI Deployment Engine</h3>
         <p>Brief description (2-3 lines)</p>
         <div class="project-tags">
             <span>Python</span>
@@ -269,7 +269,7 @@ strings: [
             <span>TensorFlow</span>
         </div>
         <div class="project-links">
-            <a href="https://github.com/yourusername/project" target="_blank" rel="noopener noreferrer" class="project-link">
+            <a href="https://github.com/aryanlodha0908/project" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fab fa-github"></i> Code
             </a>
             <a href="your-demo-url" target="_blank" rel="noopener noreferrer" class="project-link">
@@ -284,8 +284,8 @@ strings: [
 ```javascript
 const projectsData = {
     1: {
-        title: 'Your Project Title',
-        problem: 'What problem does this project solve? (3-5 lines)',
+        title: 'AutoMind AI Deployment Engine',
+        problem: 'Deploying machine learning models to production is inherently complex, time-consuming, and often requires a dedicated DevOps team...',
         features: [
             'Feature 1: Description',
             'Feature 2: Description',
@@ -293,7 +293,7 @@ const projectsData = {
             'Feature 4: Description'
         ],
         tags: ['Python', 'TensorFlow', 'Flask', 'PostgreSQL'],
-        github: 'https://github.com/yourusername/project',
+        github: 'https://github.com/aryanlodha0908/project',
         demo: 'https://your-demo-url.com'
     },
     // Repeat for projects 2-6
@@ -328,16 +328,16 @@ const projectsData = {
 **Update Contact Cards:**
 ```html
 <!-- Email -->
-<a href="mailto:your.email@example.com">your.email@example.com</a>
+<a href="mailto:aryanlodha0908@gmail.com">aryanlodha0908@gmail.com</a>
 
 <!-- LinkedIn -->
-<a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-    linkedin.com/in/yourusername
+<a href="https://linkedin.com/in/aryan-lodha-9525a4355/" target="_blank" rel="noopener noreferrer">
+    linkedin.com/in/aryan-lodha-9525a4355/
 </a>
 
 <!-- GitHub -->
-<a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-    github.com/yourusername
+<a href="https://github.com/aryanlodha0908" target="_blank" rel="noopener noreferrer">
+    github.com/aryanlodha0908
 </a>
 ```
 
@@ -386,7 +386,7 @@ function getBotResponse(message) {
     }
     
     if (lowerMessage.includes('project')) {
-        return "I've worked on 15+ projects including...";
+        return "I've worked on 12+ projects including...";
     }
     
     // Add more conditions as needed
@@ -465,11 +465,11 @@ Open `assets/resume.html` and update:
 
 <!-- Lines ~42-50: Contact Info -->
 <div class="contact-info">
-    <span>📧 your.email@example.com</span>
-    <span>📱 +1 (555) 123-4567</span>
-    <span>📍 City, State</span>
-    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
-    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
+    <span>📧 aryanlodha0908@gmail.com</span>
+    <span>📱 +91 96369 58438</span>
+    <span>📍 Mumbai, Maharashtra</span>
+    <a href="https://linkedin.com/in/aryan-lodha-9525a4355/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+    <a href="https://github.com/aryanlodha0908" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
 </div>
 ```
 
@@ -554,7 +554,7 @@ git commit -m "Initial commit: Portfolio website"
 # Do NOT initialize with README
 
 # 5. Add remote and push
-git remote add origin https://github.com/yourusername/portfolio.git
+git remote add origin https://github.com/aryanlodha0908/portfolio.git
 git branch -M main
 git push -u origin main
 ```
@@ -567,7 +567,7 @@ git push -u origin main
 4. Folder: Select "/ (root)"
 5. Click "Save"
 6. Wait 2-3 minutes
-7. Your site will be live at: `https://yourusername.github.io/portfolio/`
+7. Your site will be live at: `https://aryanlodha0908.github.io/portfolio/`
 
 **Custom Domain (Optional):**
 
@@ -584,7 +584,7 @@ git push -u origin main
    
    Type: CNAME
    Host: www
-   Value: yourusername.github.io
+   Value: aryanlodha0908.github.io
    ```
 4. In GitHub Pages settings, add custom domain
 5. Enable "Enforce HTTPS"
@@ -674,22 +674,22 @@ vercel --prod
 ### 1. Update Meta Tags (`index.html` lines 1-20)
 
 ```html
-<meta name="description" content="Portfolio of [Your Name] - AI & Data Science Student specializing in Machine Learning, Data Analytics, and Cyber Security">
-<meta name="keywords" content="[Your Name], AI, Data Science, Machine Learning, Portfolio, [Your University]">
-<meta name="author" content="[Your Name]">
+<meta name="description" content="Portfolio of Aryan Lodha - AI & Data Science Student specializing in Machine Learning, Data Analytics, and Cyber Security">
+<meta name="keywords" content="Aryan Lodha, AI, Data Science, Machine Learning, Portfolio, K J Somaiya College of Engineering">
+<meta name="author" content="Aryan Lodha">
 
 <!-- Open Graph for Social Media -->
-<meta property="og:title" content="[Your Name] - AI & Data Science Portfolio">
+<meta property="og:title" content="Aryan Lodha - AI & Data Science Portfolio">
 <meta property="og:description" content="Showcasing projects in AI, Machine Learning, Data Analytics, and Cyber Security">
-<meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
-<meta property="og:url" content="https://yourwebsite.com">
+<meta property="og:image" content="https://github.com/aryanlodha0908/images/og-image.jpg">
+<meta property="og:url" content="https://github.com/aryanlodha0908">
 <meta property="og:type" content="website">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="[Your Name] - AI & Data Science Portfolio">
+<meta name="twitter:title" content="Aryan Lodha - AI & Data Science Portfolio">
 <meta name="twitter:description" content="Showcasing projects in AI, Machine Learning, and Data Analytics">
-<meta name="twitter:image" content="https://yourwebsite.com/images/og-image.jpg">
+<meta name="twitter:image" content="https://github.com/aryanlodha0908/images/og-image.jpg">
 ```
 
 ### 2. Add Google Analytics
@@ -713,7 +713,7 @@ Get your tracking ID from [Google Analytics](https://analytics.google.com)
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yourwebsite.com/</loc>
+    <loc>https://github.com/aryanlodha0908/</loc>
     <lastmod>2026-01-11</lastmod>
     <priority>1.0</priority>
   </url>
@@ -727,7 +727,7 @@ Save as `sitemap.xml` in root folder.
 ```
 User-agent: *
 Allow: /
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://github.com/aryanlodha0908/sitemap.xml
 ```
 
 Save as `robots.txt` in root folder.
@@ -1098,9 +1098,9 @@ Your portfolio is now fully customized, optimized, and deployed!
 ## 📞 Need Help?
 
 - 📖 Check the [README.md](README.md) for project overview
-- 🐛 Found a bug? [Report it](https://github.com/yourusername/portfolio/issues)
-- 💬 Questions? Email: your.email@example.com
-- 💼 Connect: [LinkedIn](https://linkedin.com/in/yourusername)
+- 🐛 Found a bug? [Report it](https://github.com/aryanlodha0908/portfolio/issues)
+- 💬 Questions? Email: aryanlodha0908@gmail.com
+- 💼 Connect: [LinkedIn](https://linkedin.com/in/aryan-lodha-9525a4355/)
 
 ---
 

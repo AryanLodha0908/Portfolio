@@ -153,7 +153,7 @@ Portfolio/
 
 ```bash
 # Clone or download the repository
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/aryanlodha0908/portfolio.git
 cd portfolio
 
 # Open index.html in your browser
@@ -243,14 +243,14 @@ npx serve
 
 ### 4. Internships & Experience
 - Timeline layout
-- 3 internship cards (expandable)
+- Internship section (expandable)
 - Tech stack tags
 - Key responsibilities
 - Achievements and outcomes
 
 ### 5. Certifications
 - Grid layout (2 columns, responsive)
-- 6 certification cards
+- Certifications section
 - Issuing organization
 - Year obtained
 - Verification links
@@ -264,7 +264,7 @@ npx serve
 
 ### 7. Featured Projects
 - Filterable by category (All, AI/ML, Data Science, Security, Web Dev)
-- 6 project cards with images
+- 12 featured projects with images
 - Project modals with detailed information
 - GitHub and live demo links
 - Tech stack tags
@@ -340,11 +340,11 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
-**Your Name**
-- 🌐 Website: [yourwebsite.com](https://yourwebsite.com)
-- 💼 LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 📧 Email: your.email@example.com
+**Aryan Lodha**
+- 🌐 Website: [github.com/aryanlodha0908](https://github.com/aryanlodha0908)
+- 💼 LinkedIn: [linkedin.com/in/aryan-lodha-9525a4355/](https://linkedin.com/in/aryan-lodha-9525a4355/)
+- 🐙 GitHub: [@aryanlodha0908](https://github.com/aryanlodha0908)
+- 📧 Email: aryanlodha0908@gmail.com
 
 ---
 
@@ -363,9 +363,9 @@ See the [LICENSE](LICENSE) file for details.
 Need help with customization or deployment?
 
 - 📖 **Read the complete guide**: Check out `GUIDE.md`
-- 🐛 **Found a bug?**: [Open an issue](https://github.com/yourusername/portfolio/issues)
-- 💬 **Have questions?**: Email me at your.email@example.com
-- 💼 **Connect on LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+- 🐛 **Found a bug?**: [Open an issue](https://github.com/aryanlodha0908/portfolio/issues)
+- 💬 **Have questions?**: Email me at aryanlodha0908@gmail.com
+- 💼 **Connect on LinkedIn**: [linkedin.com/in/aryan-lodha-9525a4355/](https://linkedin.com/in/aryan-lodha-9525a4355/)
 
 ---
 

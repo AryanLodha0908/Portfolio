@@ -247,99 +247,183 @@ const viewDetailsButtons = document.querySelectorAll('.btn-view-details');
 // Project data
 const projectsData = {
     1: {
-        title: 'Sentiment Analysis System',
+        title: 'AutoMind AI Deployment Engine',
         image: './images/project1.jpg',
-        problem: 'Businesses struggle to analyze customer feedback at scale. Manual sentiment analysis is time-consuming and prone to inconsistency, making it difficult to extract actionable insights from thousands of reviews and social media comments.',
+        problem: 'Deploying machine learning models to production is inherently complex, time-consuming, and often requires a dedicated DevOps team. Most data scientists struggle to transition their models from Jupyter notebooks into robust, scalable production APIs, leading to significant delays in software delivery and operational bottlenecks.',
         features: [
-            'Real-time sentiment classification (Positive, Negative, Neutral)',
-            'Multi-language support for global reach',
-            'Batch processing for analyzing large datasets',
-            'Interactive dashboard for visualization',
-            'API integration for seamless deployment',
-            'Achieved 94% accuracy using BERT model'
+            'Fully automated end-to-end ML deployment pipeline',
+            'Transforms raw datasets and trained models into production-ready APIs instantly',
+            'Automated model training, evaluation, and hyperparameter tuning',
+            'Built-in performance monitoring, logging, and dynamic auto-scaling',
+            'Containerized architecture for seamless cloud deployment'
         ],
-        tags: ['Python', 'NLP', 'TensorFlow', 'BERT', 'Flask', 'React'],
-        github: 'https://github.com/yourusername/sentiment-analysis',
+        tags: ['Python', 'Machine Learning', 'Automation', 'API', 'Docker', 'FastAPI'],
+        github: '#',
         demo: '#'
     },
     2: {
-        title: 'Sales Prediction Dashboard',
+        title: 'Autonomous Cyber Defense AI Agent',
         image: './images/project2.jpg',
-        problem: 'Sales teams need accurate forecasting to optimize inventory and resource allocation. Traditional methods lack the precision and adaptability required for dynamic market conditions.',
+        problem: 'Traditional, rule-based security systems struggle to respond quickly to novel, zero-day attacks, often requiring tedious human intervention. The escalating sophistication of cyber threats necessitates an intelligent, self-healing network defense mechanism that can operate at machine speed.',
         features: [
-            'Time-series forecasting using LSTM',
-            'Interactive visualizations with Tableau',
-            'Historical data analysis and trend identification',
-            'What-if scenario analysis',
-            'Automated report generation',
-            'Real-time data integration from multiple sources'
+            'Multi-Agent AI architecture for distributed threat intelligence',
+            'Real-time anomaly detection and proactive incident response',
+            'Automated vulnerability mitigation and network isolation',
+            'Behavioral analysis engine to identify zero-day threats',
+            'Comprehensive security dashboard with live attack vector visualization'
         ],
-        tags: ['Python', 'Tableau', 'SQL', 'Scikit-learn', 'LSTM', 'Pandas'],
-        github: 'https://github.com/yourusername/sales-prediction',
+        tags: ['AI', 'Cyber Security', 'Multi-Agent', 'Python', 'NetworkX'],
+        github: '#',
         demo: '#'
     },
     3: {
-        title: 'Network Intrusion Detection',
+        title: 'Renewable Energy Optimization Platform',
         image: './images/project3.jpg',
-        problem: 'Organizations face increasing cyber threats with traditional rule-based detection systems unable to identify new attack patterns. Real-time threat detection is critical for network security.',
+        problem: 'Optimizing the placement and efficiency of renewable energy installations (like solar and wind farms) requires analyzing vast amounts of geographic, climatic, and topological data. Without intelligent analysis, renewable projects often suffer from sub-optimal placement and reduced energy yields.',
         features: [
-            'Real-time network traffic monitoring',
-            'ML-based anomaly detection',
-            'Classification of different attack types',
-            'Alert system for suspicious activities',
-            'Performance optimization for high-speed networks',
-            'Integration with existing security infrastructure'
+            'National-scale AI decision-making for optimal site selection',
+            'Deep analysis of geography, climate, weather patterns, and terrain',
+            'Predictive modeling for long-term energy output forecasting',
+            'Interactive data visualizations and heatmap generation',
+            'Integration with real-time meteorological APIs'
         ],
-        tags: ['Python', 'Machine Learning', 'Wireshark', 'Keras', 'NetworkX'],
-        github: 'https://github.com/yourusername/network-ids',
+        tags: ['AI', 'Data Science', 'Analysis', 'Python', 'Pandas', 'Folium'],
+        github: '#',
         demo: '#'
     },
     4: {
-        title: 'Image Classification Model',
+        title: 'Smart Sign Language Interpreter',
         image: './images/project4.jpg',
-        problem: 'Manual image categorization is impractical for large datasets. Automated, accurate image classification is essential for content management, e-commerce, and medical diagnostics.',
+        problem: 'Significant communication barriers exist between sign language users and non-signers in everyday interactions. A fast, highly accurate, and accessible real-time translation tool is needed to bridge this gap without relying on human interpreters.',
         features: [
-            'Multi-class image classification',
-            'Transfer learning with pre-trained models',
-            'Data augmentation for improved accuracy',
-            'Real-time image prediction',
-            'Model fine-tuning capabilities',
-            'Web interface for easy testing'
+            'Real-time hand and body gesture recognition via webcam',
+            'Deep Learning based skeletal pose estimation and tracking',
+            'High accuracy continuous translation of complex sign sentences',
+            'Intuitive user interface with text-to-speech capabilities',
+            'Optimized for low-latency edge computing devices'
         ],
-        tags: ['Python', 'CNN', 'TensorFlow', 'OpenCV', 'Flask'],
-        github: 'https://github.com/yourusername/image-classification',
+        tags: ['Computer Vision', 'Deep Learning', 'OpenCV', 'AI', 'TensorFlow'],
+        github: '#',
         demo: '#'
     },
     5: {
-        title: 'Customer Segmentation',
+        title: 'Smart Virtual Cursor',
         image: './images/project5.jpg',
-        problem: 'Marketing teams need to understand customer behavior to create targeted campaigns. Generic approaches result in wasted resources and poor engagement rates.',
+        problem: 'Physical interaction devices (mice, trackpads) limit accessibility for users with motor disabilities and can cause ergonomic issues during long computer sessions. A touchless, hardware-free navigation solution is highly desirable.',
         features: [
-            'K-means clustering for customer grouping',
-            'RFM (Recency, Frequency, Monetary) analysis',
-            'Customer lifetime value prediction',
-            'Behavioral pattern identification',
-            'Interactive segment visualization',
-            'Actionable marketing recommendations'
+            'Robust hand gesture recognition utilizing standard webcams',
+            'Real-time, smooth cursor control entirely without hardware',
+            'Support for complex gestures: click, double-click, drag, and scroll',
+            'Low latency processing engineered with OpenCV and MediaPipe',
+            'Customizable sensitivity and gesture mapping profiles'
         ],
-        tags: ['Python', 'K-means', 'Pandas', 'Matplotlib', 'Seaborn'],
-        github: 'https://github.com/yourusername/customer-segmentation',
+        tags: ['Computer Vision', 'AI', 'Gesture Recognition', 'OpenCV', 'MediaPipe'],
+        github: '#',
         demo: '#'
     },
     6: {
-        title: 'Real-time Chat Application',
+        title: 'TruthShield AI',
         image: './images/project6.jpg',
-        problem: 'Modern applications require instant communication capabilities. Building secure, scalable real-time chat systems presents technical challenges in handling concurrent connections and data synchronization.',
+        problem: 'The exponential rise of hyper-realistic fake news and AI-generated deepfakes makes it increasingly difficult for users, journalists, and platforms to trust online media. Misinformation spreads rapidly, requiring automated, scalable detection mechanisms.',
         features: [
-            'Real-time messaging with WebSocket',
-            'User authentication and authorization',
-            'Group chat functionality',
-            'Message history and search',
-            'File sharing capabilities',
-            'Responsive modern UI design'
+            'Multi-modal Deepfake detection (analyzing both video frames and audio)',
+            'Fake news text classification via state-of-the-art NLP models (BERT)',
+            'High-speed, production-ready API built with FastAPI',
+            'Pre-trained ensemble models for robust image and video authenticity analysis',
+            'Browser extension integration for real-time content flagging'
         ],
-        tags: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
-        github: 'https://github.com/yourusername/chat-app',
+        tags: ['NLP', 'Deep Learning', 'FastAPI', 'Security', 'PyTorch'],
+        github: '#',
+        demo: '#'
+    },
+    7: {
+        title: 'LLM DevOps Orchestrator Suite',
+        image: './images/project1.jpg',
+        problem: 'Managing, testing, and orchestrating multiple Large Language Models (LLMs) for complex software engineering tasks is inefficient. Developers face issues with model routing, cost management, prompt versioning, and hallucination mitigation.',
+        features: [
+            'Intelligent Multi-LLM routing based on task complexity and cost',
+            'Ecosystem of 14 specialized, interacting AI agents',
+            'Automated cost optimization and quality assurance pipelines',
+            'Deep integration with Kaggle ML for dataset retrieval',
+            'Centralized logging and prompt performance analytics'
+        ],
+        tags: ['LLM', 'DevOps', 'Multi-Agent', 'GenAI', 'Python'],
+        github: '#',
+        demo: '#'
+    },
+    8: {
+        title: 'Project Validation & Intelligence Audit Engine',
+        image: './images/project2.jpg',
+        problem: 'Ensuring that software projects are production-ready requires tedious, manual auditing. Code reviews, security vulnerability scanning, and performance testing are often fragmented across different tools, slowing down the release cycle.',
+        features: [
+            'Comprehensive 10-Phase System Validation Architecture',
+            'Deep code, security, and performance testing orchestration',
+            'Automated generation of detailed portfolio and audit reports',
+            'Metrics validation and architectural visualization generation',
+            'CI/CD pipeline integration for continuous auditing'
+        ],
+        tags: ['Validation', 'Audit', 'Python', 'Testing', 'CI/CD'],
+        github: '#',
+        demo: '#'
+    },
+    9: {
+        title: 'Smart User Behavior Insights System',
+        image: './images/project3.jpg',
+        problem: 'Understanding deep user engagement metrics and predicting bounce rates usually requires complex, expensive, and heavy third-party analytics tools that compromise user privacy and slow down website load times.',
+        features: [
+            'Lightweight, real-time user tracking and interaction metrics',
+            'AI-powered bounce prediction and session length forecasting',
+            'Interactive, visually rich analytics dashboard for administrators',
+            'Secure REST API and robust Admin panel control',
+            'Privacy-first architecture with anonymized data processing'
+        ],
+        tags: ['Node.js', 'Express', 'React', 'Analytics', 'MongoDB'],
+        github: '#',
+        demo: '#'
+    },
+    10: {
+        title: 'CreatorOS AI',
+        image: './images/project4.jpg',
+        problem: 'Content creators need an integrated platform to manage their business, audience, and monetization. Building a custom, secure, and scalable platform from scratch is technologically daunting and time-consuming.',
+        features: [
+            'Modern full-stack architecture optimized for high traffic',
+            'Enterprise-grade secure authentication implemented with Clerk',
+            'Robust relational database management orchestrated with Prisma',
+            'Responsive, accessible, and beautiful UI built with Tailwind CSS',
+            'Integrated AI tools for content ideation and scheduling'
+        ],
+        tags: ['Next.js', 'React', 'Tailwind CSS', 'Prisma', 'Clerk'],
+        github: '#',
+        demo: '#'
+    },
+    11: {
+        title: 'JamSphere Live Jamming Music Arena',
+        image: './images/project5.jpg',
+        problem: 'Local musicians frequently struggle to find compatible partners with similar musical tastes and skill levels for casual jamming or band formation. Existing social networks are not optimized for real-life musical matchmaking.',
+        features: [
+            'AI-powered music taste and skill-level matching algorithm',
+            'Location-based discovery to find nearby musicians',
+            'Interactive maps integration for venue and studio finding',
+            'Secure meeting facilitation and chat scheduling',
+            'Audio portfolio hosting for user profiles'
+        ],
+        tags: ['AI', 'Maps API', 'Web', 'Music', 'React'],
+        github: '#',
+        demo: '#'
+    },
+    12: {
+        title: 'AI Document Intelligence Suite',
+        image: './images/project6.jpg',
+        problem: 'Extracting meaningful semantic information from unstructured documents (invoices, contracts, PDFs) is a massive bottleneck for enterprise workflows. Traditional OCR is too rigid and fails to understand context.',
+        features: [
+            'Fully automated, scalable document processing pipeline',
+            'Advanced OCR paired with intelligent text extraction',
+            'Semantic analysis using NLP to understand document context and intent',
+            'Automated data structuring and export to databases (JSON/CSV)',
+            'Support for multi-page, multi-format (PDF, Image, Word) documents'
+        ],
+        tags: ['Python', 'OCR', 'NLP', 'Computer Vision', 'PyTorch'],
+        github: '#',
         demo: '#'
     }
 };
@@ -584,95 +668,166 @@ function addChatMessage(text, sender) {
 }
 
 function getBotResponse(message) {
-    const lowerMessage = message.toLowerCase();
+    const msg = message.toLowerCase();
     
-    // Skills response
-    if (lowerMessage.includes('skill')) {
-        return `I have expertise in multiple areas:
+    // Course / Qualification / Major
+    if (msg.match(/qualification|course|major|specialization|honors|degree|study|studying|education/)) {
+        return `Aryan is pursuing a <strong>Bachelor of Technology (B.Tech) in Artificial Intelligence & Data Science</strong> with Honors in <strong>Cyber Security</strong> at K J Somaiya College of Engineering. He is expected to graduate in May 2026 with a CGPA of 8.5/10.`;
+    }
+    
+    // College / University
+    if (msg.match(/college|university|institute|school|somaiya/)) {
+        return `Aryan studies at <strong>K J Somaiya College of Engineering</strong> in Mumbai.`;
+    }
+    
+    // Location
+    if (msg.match(/location|live|city|where|based|address|mumbai/)) {
+        return `Aryan is based in <strong>Chittorgarh, Rajasthan, India</strong>.`;
+    }
+    
+    // Contact
+    if (msg.match(/contact|email|reach|phone|call|number|linkedin|github/)) {
+        return `You can reach Aryan at:
             <ul>
-                <li><strong>AI & ML:</strong> Machine Learning, Deep Learning, NLP, Computer Vision</li>
-                <li><strong>Data:</strong> Data Science, Analytics, SQL, BigQuery, Visualization</li>
+                <li>📧 <strong>Email:</strong> aryanlodha0908@gmail.com</li>
+                <li>📱 <strong>Phone:</strong> +91 96369 58438</li>
+                <li>📍 <strong>Location:</strong> Mumbai, Maharashtra</li>
+                <li>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aryan-lodha-9525a4355/" target="_blank">Aryan Lodha</a></li>
+                <li>💻 <strong>GitHub:</strong> <a href="https://github.com/aryanlodha0908" target="_blank">aryanlodha0908</a></li>
+            </ul>`;
+    }
+    
+    // Experience / Internship
+    if (msg.match(/experience|intern|internship|work|job|employment/)) {
+        return `Aryan recently interned in <strong>Archaeological Image Analysis</strong>.
+            <ul>
+                <li>Analyzed archaeological images using computer vision techniques.</li>
+                <li>Developed algorithms for image enhancement and pattern recognition.</li>
+                <li>Collaborated with researchers to document historical artifacts.</li>
+            </ul>
+            <strong>Tech Stack:</strong> Computer Vision, Image Processing, Python.`;
+    }
+    
+    // Certifications
+    if (msg.match(/certif|certificate|certification|credential|google|coursera/)) {
+        return `Aryan holds several professional certifications, including:
+            <ul>
+                <li><strong>Coursera Specializations</strong></li>
+                <li><strong>Google Skills</strong></li>
+            </ul>`;
+    }
+    
+    // Skills
+    if (msg.match(/skill|skills|tech|stack|language|framework|tool|programming/)) {
+        return `Aryan's technical skills include:
+            <ul>
+                <li><strong>AI & ML:</strong> Deep Learning, NLP, Computer Vision, TensorFlow, PyTorch</li>
+                <li><strong>Data Science:</strong> SQL, BigQuery, Pandas, Tableau, Power BI</li>
+                <li><strong>Web Dev:</strong> React, Node.js, Next.js, HTML/CSS</li>
+                <li><strong>Cyber Security:</strong> Ethical Hacking, Cryptography, OWASP</li>
                 <li><strong>Programming:</strong> Python, JavaScript, C/C++</li>
-                <li><strong>Security:</strong> Network Security, Ethical Hacking, Cryptography</li>
-                <li><strong>Cloud:</strong> Google Cloud Platform, Docker, Linux</li>
             </ul>`;
     }
     
-    // Projects response
-    if (lowerMessage.includes('project')) {
-        return `Here are some of my key projects:
-            <ul>
-                <li><strong>Sentiment Analysis System</strong> - NLP model with 94% accuracy</li>
-                <li><strong>Sales Prediction Dashboard</strong> - ML-based forecasting tool</li>
-                <li><strong>Network Intrusion Detection</strong> - Real-time security system</li>
-                <li><strong>Image Classification</strong> - Deep learning CNN model</li>
-            </ul>
-            Check out the Projects section for more details!`;
-    }
-    
-    // Certifications response
-    if (lowerMessage.includes('certification') || lowerMessage.includes('certificate')) {
-        return `I hold several professional certifications:
-            <ul>
-                <li>Google Cloud Data Analytics (2024)</li>
-                <li>Certified Ethical Hacker (CEH) - 2024</li>
-                <li>Machine Learning Specialization - Stanford</li>
-                <li>Data Science Professional - IBM</li>
-                <li>Network Security Fundamentals - Cisco</li>
-            </ul>`;
-    }
-    
-    // Contact response
-    if (lowerMessage.includes('contact') || lowerMessage.includes('reach') || lowerMessage.includes('email')) {
-        return `You can reach me through:
-            <ul>
-                <li><strong>Email:</strong> aryanlodha0908@example.com</li>
-                <li><strong>LinkedIn:</strong> linkedin.com/in/aryan-lodha-9525a4355/</li>
-                <li><strong>GitHub:</strong> github.com/aryanlodha0908</li>
-            </ul>
-            Or use the contact form on this page!`;
-    }
-    
-    // Experience response
-    if (lowerMessage.includes('experience') || lowerMessage.includes('internship')) {
-        return `I have completed multiple internships:
-            <ul>
-                <li><strong>Data Analyst Intern</strong> - Improved reporting efficiency by 35%</li>
-                <li><strong>ML Intern</strong> - Achieved 92% model accuracy</li>
-                <li><strong>Cyber Security Intern</strong> - Identified 15+ critical vulnerabilities</li>
-            </ul>
-            Visit the Experience section for full details!`;
-    }
-    
-    // Education response
-    if (lowerMessage.includes('education') || lowerMessage.includes('degree') || lowerMessage.includes('study')) {
-        return `I'm currently pursuing a degree in <strong>Artificial Intelligence & Data Science</strong> with Honors in <strong>Cyber Security</strong>. My academic focus includes machine learning, data analytics, and security principles.`;
-    }
-    
-    // Resume response
-    if (lowerMessage.includes('resume') || lowerMessage.includes('cv')) {
-        return `You can download my resume by clicking the "Download Resume" button in the hero section or contact section. It includes detailed information about my education, experience, skills, and projects.`;
-    }
-    
-    // Coding profiles response
-    if (lowerMessage.includes('leetcode') || lowerMessage.includes('coding') || lowerMessage.includes('competitive')) {
-        return `I'm active on several coding platforms:
+    // Profiles
+    if (msg.match(/leetcode|hackerrank|hackerearth|codechef|competitive|profile|coding/)) {
+        return `Aryan is highly active in competitive programming:
             <ul>
                 <li><strong>LeetCode:</strong> 500+ problems solved, Knight rating</li>
-                <li><strong>HackerRank:</strong> 5-star in Problem Solving & Python</li>
+                <li><strong>HackerRank:</strong> 5-star Problem Solving & Python</li>
                 <li><strong>HackerEarth:</strong> 300+ problems, 1500+ rating</li>
                 <li><strong>CodeChef:</strong> 3-star rating</li>
             </ul>`;
     }
     
+    // Achievements
+    if (msg.match(/achieve|achievement|achievements|award|hackathon|paper|research|blog|open source|open-source/)) {
+        return `Aryan has several notable achievements:
+            <ul>
+                <li>🏆 1st Place in AI Hackathon 2024</li>
+                <li>🏅 Top 50 in National Level Coding Competition</li>
+                <li>📄 Published research paper on "Deep Learning for Anomaly Detection" in IEEE Conference</li>
+                <li>💻 Active open-source contributor with 50+ commits</li>
+                <li>✍️ Technical Blog Writer (20+ articles)</li>
+            </ul>`;
+    }
+    
+    // Specific Projects Match
+    if (msg.match(/music|jam|jamsphere/)) {
+        return `<strong>JamSphere Live Jamming Music Arena:</strong> A sophisticated location-based, AI-powered platform designed to help musicians with similar tastes discover each other, meet in real life, and jam together. It features interactive map integrations and secure chat.`;
+    }
+    if (msg.match(/document|ocr|extract/)) {
+        return `<strong>AI Document Intelligence Suite:</strong> A highly comprehensive AI system engineered for automated document processing. It leverages advanced OCR and NLP to not just extract text, but to intelligently perform semantic analysis on unstructured enterprise documents.`;
+    }
+    if (msg.match(/deploy|automind/)) {
+        return `<strong>AutoMind AI Deployment Engine:</strong> A fully automated, end-to-end machine learning deployment system. It completely eliminates DevOps bottlenecks by automatically transforming raw datasets and Jupyter notebooks into scalable, production-ready APIs.`;
+    }
+    if (msg.match(/cyber|defense|agent|security/)) {
+        return `<strong>Autonomous Cyber Defense AI Agent:</strong> A state-of-the-art Multi-Agent AI-Powered Security Operations Platform. It provides real-time anomaly detection, zero-day threat analysis, and automated self-healing network defense.`;
+    }
+    if (msg.match(/llm|devops|orchestrator/)) {
+        return `<strong>LLM DevOps Orchestrator Suite:</strong> An autonomous AI software engineering platform featuring an ecosystem of 14 specialized AI agents. It intelligently routes tasks between multiple LLMs to optimize for cost, speed, and code quality.`;
+    }
+    if (msg.match(/audit|valid|validation/)) {
+        return `<strong>Project Validation & Intelligence Audit Engine:</strong> An elite-grade System Validator framework. It performs deep, full-stack technical, statistical, and system audits to ensure codebases are strictly production-ready.`;
+    }
+    if (msg.match(/energy|renew|optimize/)) {
+        return `<strong>Renewable Energy Optimization Platform:</strong> A national-scale AI decision platform that extensively analyzes geography, climate, weather patterns, and terrain to optimally place and forecast the yield of renewable energy farms.`;
+    }
+    if (msg.match(/behavior|insight|analytic|analytics/)) {
+        return `<strong>Smart User Behavior Insights System:</strong> A lightweight, production-ready web analytics platform. It uses AI to track user behavior, securely process interaction metrics, and accurately predict session bounce rates.`;
+    }
+    if (msg.match(/truth|fake|news|deepfake/)) {
+        return `<strong>TruthShield AI:</strong> A vital AI security system utilizing advanced NLP (BERT) and Deep Learning to automatically detect and flag fake news text and hyper-realistic AI-generated deepfake media.`;
+    }
+    if (msg.match(/creator|creatoros|os/)) {
+        return `<strong>CreatorOS AI:</strong> A beautiful, modern web application ecosystem built specifically for content creators. It utilizes Next.js, Prisma, Clerk for secure auth, and Tailwind CSS for a highly responsive interface.`;
+    }
+    if (msg.match(/sign|language|interpreter/)) {
+        return `<strong>Smart Sign Language Interpreter:</strong> A highly accurate real-time Sign Language Recognition system. It utilizes Computer Vision, skeletal pose estimation, and Deep Learning to instantly translate complex gestures into text.`;
+    }
+    if (msg.match(/cursor|gesture|mouse/)) {
+        return `<strong>Smart Virtual Cursor:</strong> An intelligent, hardware-free hand gesture recognition system. Utilizing OpenCV and MediaPipe, it allows users to perform clicks, drags, and scrolling seamlessly using just their webcam.`;
+    }
+    
+    // All projects query
+    if (msg.match(/project|projects|portfolio|work|build|built/)) {
+        return `Aryan has 12 featured projects spanning AI, Cyber Security, Data Science, and Web Dev.
+            <ol>
+                <li><strong>AutoMind AI Deployment Engine</strong></li>
+                <li><strong>Autonomous Cyber Defense AI Agent</strong></li>
+                <li><strong>Renewable Energy Optimization Platform</strong></li>
+                <li><strong>Smart Sign Language Interpreter</strong></li>
+                <li><strong>Smart Virtual Cursor</strong></li>
+                <li><strong>TruthShield AI</strong></li>
+                <li><strong>LLM DevOps Orchestrator Suite</strong></li>
+                <li><strong>Project Validation & Intelligence Audit Engine</strong></li>
+                <li><strong>Smart User Behavior Insights System</strong></li>
+                <li><strong>CreatorOS AI</strong></li>
+                <li><strong>JamSphere Live Jamming Music Arena</strong></li>
+                <li><strong>AI Document Intelligence Suite</strong></li>
+            </ol>
+            Ask me for details about any of them!`;
+    }
+
+    // Identity / Name
+    if (msg.match(/name|who are you|who made you|who built you|about aryan|aryan/)) {
+        return `I am an AI assistant representing <strong>Aryan Lodha</strong>. Aryan is an AI & Data Science Student, Data & AI Engineer, and Cyber Security Honors student based in Mumbai, Maharashtra.`;
+    }
+
+    // Greetings
+    if (msg.match(/(hi|hello|hey|greetings|morning|evening|afternoon)/)) {
+        return "Hi there! I'm Aryan's AI Assistant. I know all about his qualifications, projects, internship, achievements, and more. Ask me anything about him!";
+    }
+    
     // Default response
-    return `Thanks for your message! I can help you with information about:
+    return `I'm Aryan's AI Assistant. I can tell you about his:
         <ul>
-            <li>My skills and expertise</li>
-            <li>Projects and work</li>
-            <li>Certifications</li>
-            <li>Experience and internships</li>
-            <li>Contact information</li>
+            <li><strong>Education</strong> (Degree, CGPA, College)</li>
+            <li><strong>Projects</strong> (Ask to list them or about specific ones)</li>
+            <li><strong>Experience</strong> (Internships)</li>
+            <li><strong>Skills</strong> & <strong>Achievements</strong></li>
+            <li><strong>Contact Info</strong></li>
         </ul>
         What would you like to know?`;
 }
